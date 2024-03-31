@@ -38,16 +38,16 @@ module.exports = {
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
   caption :process.env.CAPTION || "\t*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴅᴇ-²²¹-ᴍᴅ•* ",   //*『sᴜʙsᴄʀɪʙᴇ • ʙʟᴀᴅᴇ ᴛᴇᴄʜ』*\n youtube.com/@blade444"),	
-  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
+  OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? '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' : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
     HEROKU: process.env.HEROKU ||false,
-    API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
+    API_KEY: process.env.HEROKU_API_KEY === undefined ? '27a9a3b6-021f-4e53-b2f2-077e5f67c419' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'GOJO',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
 };
 
 
